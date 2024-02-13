@@ -25,6 +25,13 @@ h1 {
     color: #F9FAF8;
 }
 
+h2 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
 .main-text {
     font-size: 48px;
     font-weight: extra-bold;
@@ -55,4 +62,16 @@ h1 {
 
 .hero-content .content {
     width: 35%;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+}
+
+.image-desc {
+    max-width: 150px;
+    text-align: center;
 }
