@@ -69,9 +69,31 @@ h2 {
     justify-content: center;
     gap: 40px;
     padding: 10px;
+    margin-bottom: 40px;
 }
 
 .image-desc {
     max-width: 150px;
     text-align: center;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 50px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    color: black;
+    font-size: 36px; 
+}
+
+.ref {
+    color: black;
+    font-weight: bold;
+    text-align: right;
 }
