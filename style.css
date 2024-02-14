@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -48,7 +54,7 @@ h2 {
     font-size: 24px;
 }
 
-.hero-container {
+.hero-container, .footer {
     background-color: #1F2937;
 }
 
@@ -127,3 +133,12 @@ h4 {
     border-color: white;
 }
 
+
+.footer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px ;
+
+}
